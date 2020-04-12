@@ -4,7 +4,7 @@
         "es6": true,
         "commonjs": true
     },
-    "extends"
+    "extends": "eslint:recommend",
     "parserOptions": {
         "ecmaVersion": 9,
         "ecmaFeatures": {
