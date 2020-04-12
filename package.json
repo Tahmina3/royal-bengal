@@ -1,0 +1,26 @@
+{
+  "name": "royal-bengal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "next",
+    "build" : "next build",
+    "start" : "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tahmina3/royal-bengal.git"
+  },
+  "author": "Tahmina Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tahmina3/royal-bengal/issues"
+  },
+  "homepage": "https://github.com/Tahmina3/royal-bengal#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

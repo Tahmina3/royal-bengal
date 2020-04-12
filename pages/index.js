@@ -1,0 +1,1 @@
+export default () => <h1> Welcome to Royal Bengal Kettering </h1>;
