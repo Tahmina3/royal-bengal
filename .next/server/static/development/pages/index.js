@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -105,20 +105,234 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _jsxFileName = "E:\\portfolio\\royal-bengal\\royal-bengal\\pages\\index.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("h1", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 1,
-    columnNumber: 22
+ //import 'styles.css';
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 10
+      }
+    }, __jsx(Header, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 13
+      }
+    }), __jsx(About, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 13
+      }
+    }), __jsx(Footer, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 13
+      }
+    }));
   }
-}, " Welcome to Royal Bengal Kettering "));
+
+}
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const mystyle = {
+      color: "blue",
+      backgroundColor: "rgb(197, 190, 190)",
+      padding: "10px",
+      fontFamily: "Arial, Helvetica, sans-serif"
+    };
+    const nav = {
+      color: "white",
+      width: "50%",
+      textDecoration: "none",
+      listStyle: "none"
+    };
+    return __jsx("div", {
+      style: mystyle,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 10
+      }
+    }, __jsx("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 13
+      }
+    }, "The Royal Bengal"), __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 12
+      }
+    }, __jsx("ul", {
+      style: nav,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 13
+      }
+    }, __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 13
+      }
+    }, " ", __jsx("a", {
+      style: nav,
+      href: "menu.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 18
+      }
+    }, " Main Menu "), " "), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 13
+      }
+    }, " ", __jsx("a", {
+      style: nav,
+      href: "takeaway.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 18
+      }
+    }, " Takeaway Menu "), " "), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 13
+      }
+    }, " ", __jsx("a", {
+      style: nav,
+      href: "menu.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 18
+      }
+    }, " Meal Deals "), " "), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 13
+      }
+    }, " ", __jsx("a", {
+      style: nav,
+      href: "menu.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 18
+      }
+    }, " Dial A Curry "), " "), __jsx("li", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 13
+      }
+    }, " ", __jsx("a", {
+      style: nav,
+      href: "contact.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 18
+      }
+    }, " Contact "), " "))));
+  }
+
+}
+
+class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const mystyle = {
+      color: "blue",
+      backgroundColor: "rgb(197, 190, 190)",
+      padding: "10px",
+      fontFamily: "Arial, Helvetica, sans-serif"
+    };
+    return __jsx("div", {
+      style: mystyle,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 10
+      }
+    }, __jsx("h2", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 13
+      }
+    }, "About Us "), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 13
+      }
+    }, " The traditional food of Bangladesh has been widely appreciated for its fabulous use of herbs and spices. Bangladeshi cuisine is known for its large assortment of dishes. The staple food in Bangladesh includes wheat, rice and pulses with chana being the most important one. The robust menu we offer features vegetarian, fish, meat, and chicken dishes and with its variable seating arrangements makes it ideal for larger parties and events for you. Takeaway, both collection and delivery are also available. We have been here since 1980 and so many customers have become very good friends and we look forward to making many many more!"));
+  }
+
+}
+
+class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    const footer = {
+      color: "red",
+      backgroundColor: "yellow",
+      padding: "10px",
+      fontFamily: "Arial, Helvetica, sans-serif"
+    };
+    return __jsx("footer", {
+      style: footer,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 14
+      }
+    }, "The royal Bengal - Developed by Tahmina Rahman 2020 ");
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App); //https://www.tutorialspoint.com/reactjs/reactjs_components.htm
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
