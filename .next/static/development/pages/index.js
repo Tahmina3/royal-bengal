@@ -272,25 +272,32 @@ var App = /*#__PURE__*/function (_React$Component) {
           lineNumber: 7,
           columnNumber: 10
         }
-      }, __jsx(Header, {
+      }, __jsx(Title, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8,
           columnNumber: 13
         }
-      }), __jsx(About, {
+      }), __jsx(NavBar, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9,
           columnNumber: 13
         }
-      }), __jsx(Footer, {
+      }), __jsx(Body, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10,
+          columnNumber: 13
+        }
+      }), __jsx(Footer, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
           columnNumber: 13
         }
       }));
@@ -300,216 +307,263 @@ var App = /*#__PURE__*/function (_React$Component) {
   return App;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-var Header = /*#__PURE__*/function (_React$Component2) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Header, _React$Component2);
+var Title = /*#__PURE__*/function (_React$Component2) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Title, _React$Component2);
 
-  var _super2 = _createSuper(Header);
+  var _super2 = _createSuper(Title);
 
-  function Header() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
+  function Title() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Title);
 
     return _super2.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Title, [{
     key: "render",
     value: function render() {
       var mystyle = {
-        color: "blue",
-        backgroundColor: "rgb(197, 190, 190)",
-        padding: "10px",
-        fontFamily: "Arial, Helvetica, sans-serif"
-      };
-      var nav = {
         color: "white",
-        width: "50%",
-        textDecoration: "none",
-        listStyle: "none"
+        backgroundColor: "black",
+        padding: "10px",
+        fontFamily: "Arial, Helvetica, sans-serif",
+        textAlign: "center"
       };
       return __jsx("div", {
         style: mystyle,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 28,
           columnNumber: 10
         }
       }, __jsx("h1", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 29,
           columnNumber: 13
         }
-      }, "The Royal Bengal"), __jsx("div", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32,
-          columnNumber: 12
-        }
-      }, __jsx("ul", {
-        style: nav,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33,
-          columnNumber: 13
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34,
-          columnNumber: 13
-        }
-      }, " ", __jsx("a", {
-        style: nav,
-        href: "menu.js",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34,
-          columnNumber: 18
-        }
-      }, " Main Menu "), " "), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 13
-        }
-      }, " ", __jsx("a", {
-        style: nav,
-        href: "takeaway.js",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 18
-        }
-      }, " Takeaway Menu "), " "), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 13
-        }
-      }, " ", __jsx("a", {
-        style: nav,
-        href: "menu.js",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 18
-        }
-      }, " Meal Deals "), " "), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 13
-        }
-      }, " ", __jsx("a", {
-        style: nav,
-        href: "menu.js",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 18
-        }
-      }, " Dial A Curry "), " "), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 13
-        }
-      }, " ", __jsx("a", {
-        style: nav,
-        href: "contact.js",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 18
-        }
-      }, " Contact "), " "))));
+      }, "The Royal Bengal"));
     }
   }]);
 
-  return Header;
+  return Title;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-var About = /*#__PURE__*/function (_React$Component3) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(About, _React$Component3);
+var NavBar = /*#__PURE__*/function (_React$Component3) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(NavBar, _React$Component3);
 
-  var _super3 = _createSuper(About);
+  var _super3 = _createSuper(NavBar);
 
-  function About() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, About);
+  function NavBar() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, NavBar);
 
     return _super3.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(NavBar, [{
     key: "render",
     value: function render() {
+      var nav = {
+        color: "black",
+        backgroundColor: "white",
+        textDecoration: "none",
+        listStyle: "none"
+      };
       var mystyle = {
-        color: "blue",
-        backgroundColor: "rgb(197, 190, 190)",
-        padding: "10px",
+        color: "black",
         fontFamily: "Arial, Helvetica, sans-serif"
+      };
+      var li = {
+        "float": "left",
+        paddingLeft: "10px"
       };
       return __jsx("div", {
         style: mystyle,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 57,
+          columnNumber: 10
+        }
+      }, __jsx("ul", {
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 10
+        }
+      }, __jsx("li", {
+        style: li,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 10
+        }
+      }, " ", __jsx("a", {
+        href: "menu.js",
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 26
+        }
+      }, " Main Menu | "), " "), __jsx("li", {
+        style: li,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 10
+        }
+      }, " ", __jsx("a", {
+        href: "takeaway.js",
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 26
+        }
+      }, " Takeaway Menu | "), " "), __jsx("li", {
+        style: li,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 10
+        }
+      }, " ", __jsx("a", {
+        href: "mdeals.js",
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 26
+        }
+      }, " Meal Deals | "), " "), __jsx("li", {
+        style: li,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 10
+        }
+      }, " ", __jsx("a", {
+        href: "dacurry.js",
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 26
+        }
+      }, " Dial A Curry | "), " "), __jsx("li", {
+        style: li,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 10
+        }
+      }, " ", __jsx("a", {
+        href: "contact.js",
+        style: nav,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 26
+        }
+      }, " Contact "), " ")));
+    }
+  }]);
+
+  return NavBar;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+var Body = /*#__PURE__*/function (_React$Component4) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Body, _React$Component4);
+
+  var _super4 = _createSuper(Body);
+
+  function Body() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Body);
+
+    return _super4.apply(this, arguments);
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Body, [{
+    key: "render",
+    value: function render() {
+      var mystyle = {
+        color: "black",
+        padding: "80px",
+        fontFamily: "Arial, Helvetica, sans-serif",
+        textAlign: "justify"
+      };
+      return __jsx("div", {
+        style: mystyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
           columnNumber: 10
         }
       }, __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 83,
           columnNumber: 13
         }
-      }, "About Us "), __jsx("p", {
+      }, "About Us "), __jsx("img", {
+        src: "../images/6.png",
+        alt: "image",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 84,
+          columnNumber: 13
+        }
+      }), __jsx("p", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
           columnNumber: 13
         }
       }, " The traditional food of Bangladesh has been widely appreciated for its fabulous use of herbs and spices. Bangladeshi cuisine is known for its large assortment of dishes. The staple food in Bangladesh includes wheat, rice and pulses with chana being the most important one. The robust menu we offer features vegetarian, fish, meat, and chicken dishes and with its variable seating arrangements makes it ideal for larger parties and events for you. Takeaway, both collection and delivery are also available. We have been here since 1980 and so many customers have become very good friends and we look forward to making many many more!"));
     }
   }]);
 
-  return About;
+  return Body;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-var Footer = /*#__PURE__*/function (_React$Component4) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Footer, _React$Component4);
+var Footer = /*#__PURE__*/function (_React$Component5) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(Footer, _React$Component5);
 
-  var _super4 = _createSuper(Footer);
+  var _super5 = _createSuper(Footer);
 
   function Footer() {
     Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Footer);
 
-    return _super4.apply(this, arguments);
+    return _super5.apply(this, arguments);
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Footer, [{
     key: "render",
     value: function render() {
       var footer = {
-        color: "red",
-        backgroundColor: "yellow",
+        color: "white",
+        backgroundColor: "black",
         padding: "10px",
+        fontSize: "12px",
+        textAlign: "center",
         fontFamily: "Arial, Helvetica, sans-serif"
       };
       return __jsx("footer", {
@@ -517,10 +571,10 @@ var Footer = /*#__PURE__*/function (_React$Component4) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77,
+          lineNumber: 109,
           columnNumber: 14
         }
-      }, "The royal Bengal - Developed by Tahmina Rahman 2020 ");
+      }, "The Royal Bengal - Developed by Tahmina Rahman 2020 ");
     }
   }]);
 
@@ -531,7 +585,7 @@ var Footer = /*#__PURE__*/function (_React$Component4) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Cportfolio%5Croyal-bengal%5Croyal-bengal%5Cpages%5Cindex.js ***!
   \**********************************************************************************************************************************/
@@ -554,5 +608,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
