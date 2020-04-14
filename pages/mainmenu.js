@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Menu extends React.Component {
+class MainMenu extends React.Component {
    render() {
       return (
          <div>
@@ -74,6 +74,6 @@ class Footer extends React.Component {
     }
  }
 
-export default Menu;
+export default MainMenu;
 
 //https://www.tutorialspoint.com/reactjs/reactjs_components.htm 
