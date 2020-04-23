@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -107,6 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "E:\\portfolio\\royal-bengal\\royal-bengal\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  //import 'styles.css';
+//import im from '../images/6.png';
 
 class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
@@ -114,35 +115,35 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 10
       }
     }, __jsx(Title, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 13
       }
     }), __jsx(NavBar, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 11,
         columnNumber: 13
       }
     }), __jsx(Body, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 13
       }
     }), __jsx(Footer, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 13
       }
     }));
@@ -164,14 +165,14 @@ class Title extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 10
       }
     }, __jsx("h1", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 13
       }
     }, "The Royal Bengal"));
@@ -200,7 +201,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 59,
         columnNumber: 10
       }
     }, __jsx("ul", {
@@ -208,7 +209,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 60,
         columnNumber: 10
       }
     }, __jsx("li", {
@@ -216,16 +217,16 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 61,
         columnNumber: 10
       }
     }, " ", __jsx("a", {
-      href: "menu.js",
+      href: "mainmenu.js",
       style: nav,
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 61,
         columnNumber: 26
       }
     }, " Main Menu | "), " "), __jsx("li", {
@@ -233,7 +234,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 62,
         columnNumber: 10
       }
     }, " ", __jsx("a", {
@@ -242,7 +243,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 62,
         columnNumber: 26
       }
     }, " Takeaway Menu | "), " "), __jsx("li", {
@@ -250,7 +251,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 63,
         columnNumber: 10
       }
     }, " ", __jsx("a", {
@@ -259,7 +260,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 63,
         columnNumber: 26
       }
     }, " Meal Deals | "), " "), __jsx("li", {
@@ -267,7 +268,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 64,
         columnNumber: 10
       }
     }, " ", __jsx("a", {
@@ -276,7 +277,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 64,
         columnNumber: 26
       }
     }, " Dial A Curry | "), " "), __jsx("li", {
@@ -284,7 +285,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63,
+        lineNumber: 65,
         columnNumber: 10
       }
     }, " ", __jsx("a", {
@@ -293,7 +294,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63,
+        lineNumber: 65,
         columnNumber: 26
       }
     }, " Contact "), " ")));
@@ -317,14 +318,14 @@ class Body extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 88,
         columnNumber: 10
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 89,
         columnNumber: 13
       }
     }, "About Us "), __jsx("p", {
@@ -332,58 +333,49 @@ class Body extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 90,
         columnNumber: 13
       }
     }, " + Eat-in ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88,
+        lineNumber: 90,
         columnNumber: 41
       }
     }), "+ Takeaway ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 91,
         columnNumber: 20
       }
     }), "+ Delivery ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90,
+        lineNumber: 92,
         columnNumber: 20
       }
     }), "+ Vegetarian food ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91,
+        lineNumber: 93,
         columnNumber: 27
       }
     }), "+ Halal food ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 94,
         columnNumber: 22
       }
-    }), " "), __jsx("img", {
-      src: "../images/6.png",
-      alt: "image",
+    }), " "), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94,
-        columnNumber: 13
-      }
-    }), __jsx("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 97,
         columnNumber: 13
       }
     }, " The traditional food of Bangladesh has been widely appreciated for its fabulous use of herbs and spices. Bangladeshi cuisine is known for its large assortment of dishes. The staple food in Bangladesh includes wheat, rice and pulses with chana being the most important one. The robust menu we offer features vegetarian, fish, meat, and chicken dishes and with its variable seating arrangements makes it ideal for larger parties and events for you. Takeaway, both collection and delivery are also available. We have been here since 1980 and so many customers have become very good friends and we look forward to making many many more!"));
@@ -406,7 +398,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 119,
+        lineNumber: 121,
         columnNumber: 14
       }
     }, "The Royal Bengal - Developed by Tahmina Rahman 2020 ");
@@ -418,7 +410,7 @@ class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

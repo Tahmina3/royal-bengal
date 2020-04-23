@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 //import 'styles.css';
 
-import im from '../images/6.png';
+//import im from '../images/6.png';
 
 class App extends React.Component {
    render() {
@@ -58,7 +58,7 @@ class NavBar extends React.Component {
       return (
          <div style={mystyle}>
          <ul style={nav}>
-         <li style={li}> <a href="menu.js" style={nav}> Main Menu | </a> </li>
+         <li style={li}> <a href="mainmenu.js" style={nav}> Main Menu | </a> </li>
          <li style={li}> <a href="takeaway.js" style={nav}> Takeaway Menu | </a> </li>
          <li style={li}> <a href="mdeals.js" style={nav}> Meal Deals | </a> </li>
          <li style={li}> <a href="dacurry.js" style={nav}> Dial A Curry | </a> </li>
@@ -93,7 +93,7 @@ class Body extends React.Component {
 		      + Vegetarian food <br/>
 		      + Halal food <br/> </p>
 
-            <img src={im}/>
+        
             <p> The traditional food of Bangladesh has been widely appreciated for its fabulous use of herbs and spices. Bangladeshi cuisine is known for its large assortment of dishes. The staple food in Bangladesh includes wheat, rice and pulses with chana being the most important one.
                 The robust menu we offer features vegetarian, fish, meat, and chicken dishes and with its variable seating arrangements makes it ideal for larger parties and events for you.
                 Takeaway, both collection and delivery are also available.

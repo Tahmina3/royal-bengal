@@ -30,7 +30,7 @@ class Header extends React.Component {
             <h1 >The Royal Bengal</h1>
            <div>
             <ul style={nav}>
-            <li> <a style={nav} href="menu.js"> Main Menu </a> </li>
+            <li> <a style={nav} href="mainmenu.js"> Main Menu </a> </li>
             <li> <a style={nav} href="takeaway.js"> Takeaway Menu </a> </li>
             <li> <a style={nav} href="mdeals.js"> Meal Deals </a> </li>
             <li> <a style={nav} href="dacurry.js"> Dial A Curry </a> </li>
